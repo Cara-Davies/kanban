@@ -2,6 +2,8 @@
 
 **Purpose:** The `kanban/` folder organizes project work into a structured workflow: priorities feed into WIP, and completed work moves to done.
 
+**Skill-first operation:** prefer reusable skills in `skills/` for execution. Keep this file as a lightweight local map.
+
 ---
 
 ## Folder Structure
@@ -10,7 +12,7 @@
 kanban/
 ├── AGENTS.md              # This file — overview of the kanban system
 ├── priorities/            # Backlog and queue management
-│   ├── agents.md          # How to use the priorities folder
+│   ├── AGENTS.md          # How to use the priorities folder
 │   ├── priorities.md     # Main priority queue (feeds from techfixes and polish)
 │   ├── techfixes.md      # Technical issues and bugs backlog
 │   └── polish.md         # Design and polish items backlog
@@ -54,7 +56,11 @@ kanban/
 
 ## References
 
-- **`priorities/agents.md`** — How to manage the priorities folder
+- **`skills/kanban-intake/SKILL.md`** — Add and classify new backlog work
+- **`skills/kanban-prioritize/SKILL.md`** — Curate `priorities.md`
+- **`skills/kanban-wip-execution/SKILL.md`** — Execute WIP steps with AC tracking
+- **`skills/kanban-done-archive/SKILL.md`** — Archive completed work and clean queues
+- **`priorities/AGENTS.md`** — Local priorities folder notes
 - **`wip/AGENTS.md`** — How to implement WIP features
 - **`done/AGENTS.md`** — How to archive completed work
 - **`README.md`** — Project overview

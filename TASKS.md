@@ -20,7 +20,7 @@ Purpose: ordered implementation plan for improving this repo as a reusable templ
   - Include: commit format, pre-commit checks, and output expectations
   - Done when: commit workflow is consistent and portable across projects
 
-- [ ] **Task .3 — Convert AGENTS to Skills**
+- [x] **Task .3 — Convert AGENTS to Skills**
   - Convert root and folder-level AGENTS instructions into reusable skills
   - Keep repo-level docs minimal and point to skills where appropriate
   - Done when: workflow can be ported by installing/copying skills instead of rewriting docs
@@ -44,3 +44,9 @@ Work tasks in order (`.1`, `.2`, `.3`, `.4`). Do not start the next task until t
   - Added `/skills/commit-quality/SKILL.md`.
   - Defined commit workflow, pre-commit quality gates, commit message format, and output expectations.
   - Linked the skill from `/README.md`.
+- **Task .3 (completed):**
+  - Added `/skills/kanban-intake/SKILL.md`.
+  - Added `/skills/kanban-prioritize/SKILL.md`.
+  - Added `/skills/kanban-wip-execution/SKILL.md`.
+  - Added `/skills/kanban-done-archive/SKILL.md`.
+  - Updated AGENTS files to skill-first guidance and normalized `priorities/AGENTS.md`.

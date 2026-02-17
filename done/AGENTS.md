@@ -2,6 +2,8 @@
 
 **Purpose:** `done/` holds completed WIP tasks. Each finished implementation gets an archived copy of its tracker and progress files here for reference and audit.
 
+**Skill-first operation:** prefer `../skills/kanban-done-archive/SKILL.md` for archive workflow, and use this file for folder conventions.
+
 ---
 
 ## Folder layout
@@ -43,6 +45,7 @@ done/
 
 ## References
 
+- **`../skills/kanban-done-archive/SKILL.md`** — Archive and queue cleanup workflow.
 - **`../wip/AGENTS.md`** — How to run a WIP (steps, progress JSON, completion workflow).
 - **`../priorities/priorities.md`** — Current queue; Completed table.
 - **`README.md`** — Project overview.

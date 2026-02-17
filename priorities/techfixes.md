@@ -6,10 +6,6 @@
 
 ## High Priority
 
-- [ ] **Convert AGENTS guidance into reusable skills set**
-  - Replace repo-specific AGENTS dependency with portable skill modules
-  - Source: Task `.3` in `TASKS.md`
-
 ---
 
 ## Medium Priority

@@ -1,6 +1,8 @@
-# agents.md — Priorities Management
+# AGENTS.md — Priorities Management
 
 **Purpose:** Guide for managing the priorities backlog and queue system.
+
+**Skill-first operation:** use `skills/kanban-intake` and `skills/kanban-prioritize` first, then use this file for folder-specific details.
 
 ---
 
@@ -93,5 +95,7 @@ The `priorities/` folder contains three markdown files that work together:
 ## References
 
 - **`../AGENTS.md`** — Overview of the kanban system
+- **`../skills/kanban-intake/SKILL.md`** — Intake and classification flow
+- **`../skills/kanban-prioritize/SKILL.md`** — Priority queue curation
 - **`../wip/AGENTS.md`** — How to create and manage WIP trackers
 - **`../done/AGENTS.md`** — How to archive completed work

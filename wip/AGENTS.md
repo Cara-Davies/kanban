@@ -2,6 +2,8 @@
 
 Guidance for implementing work-in-progress (WIP) features in this folder. **Use together with the project root docs** for coding conventions, tech stack, and workflows.
 
+**Skill-first operation:** prefer `../skills/kanban-wip-execution/SKILL.md` for execution workflow, and use this file as local detail.
+
 ---
 
 ## Purpose
@@ -106,5 +108,6 @@ When **every step** in a WIP tracker is complete:
 
 - **`README.md`** — Project overview and setup.
 - **`LOCAL_TESTING.md`** — How to run and test locally.
-- **`../priorities/agents.md`** — How to manage the priorities folder.
+- **`../skills/kanban-wip-execution/SKILL.md`** — WIP tracker execution workflow.
+- **`../priorities/AGENTS.md`** — How to manage the priorities folder.
 - **`../done/AGENTS.md`** — Done folder layout and naming conventions.

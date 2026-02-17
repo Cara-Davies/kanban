@@ -19,7 +19,7 @@ This repository is a portable kanban + workflow template for bootstrapping new p
 
 ## New Repo Bootstrap
 
-1. Copy `priorities/`, `wip/`, `done/`, and `templates/` into your new repo.
+1. Copy `priorities/`, `wip/`, `done/`, `templates/`, and `skills/` into your new repo.
 2. Start backlog capture in `priorities/techfixes.md` and `priorities/polish.md`.
 3. Move one item into `priorities/priorities.md`, create a WIP tracker, and execute it.
 4. Follow `LOCAL_TESTING.md` and `templates/testing/TDD_WORKFLOW.md` from the first feature.
@@ -33,3 +33,7 @@ This repository is a portable kanban + workflow template for bootstrapping new p
 ## Skills
 
 - `skills/commit-quality/SKILL.md` standardizes commit quality checks and commit message format.
+- `skills/kanban-intake/SKILL.md` standardizes routing new work into `techfixes` or `polish`.
+- `skills/kanban-prioritize/SKILL.md` standardizes curation of `priorities/priorities.md`.
+- `skills/kanban-wip-execution/SKILL.md` standardizes phased implementation and AC verification.
+- `skills/kanban-done-archive/SKILL.md` standardizes completion cleanup and archival.
