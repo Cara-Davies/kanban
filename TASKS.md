@@ -15,7 +15,7 @@ Purpose: ordered implementation plan for improving this repo as a reusable templ
   - Add documentation and starter test scaffolds/templates
   - Done when: a new project can follow a clear red-green-refactor workflow from day 1
 
-- [ ] **Task .2 — Commit Skill**
+- [x] **Task .2 — Commit Skill**
   - Create a reusable skill for commit quality gates and commit message generation
   - Include: commit format, pre-commit checks, and output expectations
   - Done when: commit workflow is consistent and portable across projects
@@ -40,3 +40,7 @@ Work tasks in order (`.1`, `.2`, `.3`, `.4`). Do not start the next task until t
   - Added `/README.md` with bootstrap flow and testing standard.
   - Added `/LOCAL_TESTING.md` with required commands and TDD loop.
   - Added `/templates/testing/TDD_WORKFLOW.md` and `/templates/testing/TEST_CASE_TEMPLATE.md`.
+- **Task .2 (completed):**
+  - Added `/skills/commit-quality/SKILL.md`.
+  - Defined commit workflow, pre-commit quality gates, commit message format, and output expectations.
+  - Linked the skill from `/README.md`.

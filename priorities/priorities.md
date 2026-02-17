@@ -6,10 +6,6 @@
 
 ## Up Next
 
-- [ ] **Task .2: Add a commit skill for consistent commit quality**
-  - Source: `priorities/techfixes.md`
-  - Outcome: Reusable skill that generates commit messages and runs commit gate checks
-
 - [ ] **Task .3: Convert AGENTS guidance into reusable skills set**
   - Source: `priorities/techfixes.md`
   - Outcome: Portability across repos without re-authoring AGENTS docs
@@ -25,6 +21,7 @@
 | Item | Date | Notes |
 |------|------|-------|
 | Task .1: Define and enforce test-driven workflow for this template | 2026-02-17 | Added `README.md`, `LOCAL_TESTING.md`, and testing templates |
+| Task .2: Add a commit skill for consistent commit quality | 2026-02-17 | Added `skills/commit-quality/SKILL.md` and linked in `README.md` |
 
 ---
 

@@ -14,6 +14,7 @@ This repository is a portable kanban + workflow template for bootstrapping new p
 - `wip/` active implementation trackers
 - `done/` archived completed trackers
 - `templates/` reusable starter templates for new repos
+- `skills/` reusable Codex skills for common project workflows
 - `TASKS.md` ordered improvement roadmap for this template
 
 ## New Repo Bootstrap
@@ -28,3 +29,7 @@ This repository is a portable kanban + workflow template for bootstrapping new p
 - All implementation tasks should follow red-green-refactor.
 - Acceptance criteria in WIP must map to tests or verifiable checks.
 - Every WIP step should include the command(s) used for verification.
+
+## Skills
+
+- `skills/commit-quality/SKILL.md` standardizes commit quality checks and commit message format.

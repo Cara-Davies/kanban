@@ -6,9 +6,9 @@
 
 ## High Priority
 
-- [ ] **Create reusable commit skill**
-  - Standardize commit message generation and pre-commit checks as a skill
-  - Source: Task `.2` in `TASKS.md`
+- [ ] **Convert AGENTS guidance into reusable skills set**
+  - Replace repo-specific AGENTS dependency with portable skill modules
+  - Source: Task `.3` in `TASKS.md`
 
 ---
 
