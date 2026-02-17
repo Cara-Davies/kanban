@@ -6,7 +6,17 @@
 
 ## Up Next
 
-_Items ready to be moved to WIP. Review `techfixes.md` and `polish.md` to populate this list._
+- [ ] **Task .2: Add a commit skill for consistent commit quality**
+  - Source: `priorities/techfixes.md`
+  - Outcome: Reusable skill that generates commit messages and runs commit gate checks
+
+- [ ] **Task .3: Convert AGENTS guidance into reusable skills set**
+  - Source: `priorities/techfixes.md`
+  - Outcome: Portability across repos without re-authoring AGENTS docs
+
+- [ ] **Task .4: Add readings-driven self-improvement loop**
+  - Source: `priorities/polish.md`
+  - Outcome: Structured process to evolve skills from new learnings
 
 ---
 
@@ -14,7 +24,7 @@ _Items ready to be moved to WIP. Review `techfixes.md` and `polish.md` to popula
 
 | Item | Date | Notes |
 |------|------|-------|
-|      |      |       |
+| Task .1: Define and enforce test-driven workflow for this template | 2026-02-17 | Added `README.md`, `LOCAL_TESTING.md`, and testing templates |
 
 ---
 

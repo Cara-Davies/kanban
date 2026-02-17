@@ -6,6 +6,10 @@
 
 ## High Priority
 
+- [ ] **Add readings section with self-improving loop**
+  - Capture latest context consumed and feed improvements back into skills and workflows
+  - Source: Task `.4` in `TASKS.md`
+
 ---
 
 ## Medium Priority

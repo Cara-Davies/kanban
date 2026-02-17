@@ -6,6 +6,10 @@
 
 ## High Priority
 
+- [ ] **Create reusable commit skill**
+  - Standardize commit message generation and pre-commit checks as a skill
+  - Source: Task `.2` in `TASKS.md`
+
 ---
 
 ## Medium Priority
