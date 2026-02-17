@@ -16,14 +16,22 @@ This repository is a portable kanban + workflow template for bootstrapping new p
 - `templates/` reusable starter templates for new repos
 - `skills/` reusable Codex skills for common project workflows
 - `readings/` continuous-improvement loop for evolving skills/docs
-- `TASKS.md` ordered improvement roadmap for this template
+- `meta/` template-maintainer iteration history (not required by downstream projects)
+- `scripts/new-project-reset.sh` reset helper for downstream project initialization
 
 ## New Repo Bootstrap
 
-1. Copy `priorities/`, `wip/`, `done/`, `templates/`, and `skills/` into your new repo.
+1. Copy `priorities/`, `wip/`, `done/`, `templates/`, `skills/`, and `readings/` into your new repo.
 2. Start backlog capture in `priorities/techfixes.md` and `priorities/polish.md`.
 3. Move one item into `priorities/priorities.md`, create a WIP tracker, and execute it.
 4. Follow `LOCAL_TESTING.md` and `templates/testing/TDD_WORKFLOW.md` from the first feature.
+
+## Porting Cleanup
+
+Choose one:
+
+1. Run `scripts/new-project-reset.sh` after copying this repo into your new project.
+2. Manually remove `meta/` and clear stale queue/WIP/done state.
 
 ## Testing Standard
 
