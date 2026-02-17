@@ -21,7 +21,8 @@ Create clear, reviewable commits with consistent messages and minimum quality ga
 2. Group changes into one logical commit (or propose split commits if unrelated).
 3. Run pre-commit quality checks that exist in the repository.
 4. Build a Conventional Commit message.
-5. Commit only when explicitly requested.
+5. Add co-author trailers using `COMMIT_ATTRIBUTION.md` when applicable.
+6. Commit only when explicitly requested.
 
 ## 1) Inspect Change Scope
 
@@ -75,6 +76,7 @@ After committing, provide:
 - Commit hash
 - Commit subject
 - Files included
+- Co-author trailers used
 
 ## 5) Safety Rules
 
