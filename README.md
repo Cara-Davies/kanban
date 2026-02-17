@@ -15,6 +15,7 @@ This repository is a portable kanban + workflow template for bootstrapping new p
 - `done/` archived completed trackers
 - `templates/` reusable starter templates for new repos
 - `skills/` reusable Codex skills for common project workflows
+- `readings/` continuous-improvement loop for evolving skills/docs
 - `TASKS.md` ordered improvement roadmap for this template
 
 ## New Repo Bootstrap
@@ -37,3 +38,14 @@ This repository is a portable kanban + workflow template for bootstrapping new p
 - `skills/kanban-prioritize/SKILL.md` standardizes curation of `priorities/priorities.md`.
 - `skills/kanban-wip-execution/SKILL.md` standardizes phased implementation and AC verification.
 - `skills/kanban-done-archive/SKILL.md` standardizes completion cleanup and archival.
+- `skills/kanban-readings-loop/SKILL.md` standardizes converting new readings into skill/doc improvements.
+
+## Readings-Driven Improvement
+
+Use `readings/` to capture what you learned and turn it into governed updates:
+
+1. Capture raw notes in `readings/inbox/`.
+2. Distill takeaways in `readings/syntheses/`.
+3. Propose updates in `readings/skill-deltas.md`.
+4. Record decisions in `readings/decision-log.md`.
+5. Apply accepted changes to `skills/` and docs.

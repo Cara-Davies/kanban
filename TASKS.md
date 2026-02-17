@@ -25,7 +25,7 @@ Purpose: ordered implementation plan for improving this repo as a reusable templ
   - Keep repo-level docs minimal and point to skills where appropriate
   - Done when: workflow can be ported by installing/copying skills instead of rewriting docs
 
-- [ ] **Task .4 — Readings and Self-Improvement Loop**
+- [x] **Task .4 — Readings and Self-Improvement Loop**
   - Add a section/process for capturing recent readings and extracting actionable updates
   - Feed accepted changes into skills/process docs with a short decision log
   - Done when: new learnings can be regularly reviewed and applied with traceability
@@ -50,3 +50,7 @@ Work tasks in order (`.1`, `.2`, `.3`, `.4`). Do not start the next task until t
   - Added `/skills/kanban-wip-execution/SKILL.md`.
   - Added `/skills/kanban-done-archive/SKILL.md`.
   - Updated AGENTS files to skill-first guidance and normalized `priorities/AGENTS.md`.
+- **Task .4 (completed):**
+  - Added readings loop structure under `/readings/`.
+  - Added `/skills/kanban-readings-loop/SKILL.md`.
+  - Added `skill-deltas` and `decision-log` docs for traceable self-improvement.
